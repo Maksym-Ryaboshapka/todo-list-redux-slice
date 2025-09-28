@@ -1,7 +1,7 @@
 {
   "name": "todo-list-redux",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://maksym-ryaboshapka.github.io/todo-list-redux/",
   "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
