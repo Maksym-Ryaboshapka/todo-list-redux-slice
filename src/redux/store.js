@@ -1,4 +1,5 @@
-import { createStore, combineReducers } from "redux";
+import { combineReducers } from "redux";
+import {configureStore} from "@reduxjs/toolkit";
 import { taskReducer } from "./task/reducer";
 import {filterReducer} from "./filter/reducer";
 
@@ -7,6 +8,8 @@ const rootReducer = combineReducers({
   filter: filterReducer,
 });
 
-const store = createStore(rootReducer);
+const store = configureStore({
+  reducer: rootReducer
+});
 
 export default store;
