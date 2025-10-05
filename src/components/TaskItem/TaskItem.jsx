@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
-import { toggleTask, removeTask } from "../../redux/task/action";
+// import { toggleTask, removeTask } from "../../redux/task/action";
+import {toggleTask, removeTask} from "../../redux/taksSlice";
 
 const TaskItem = ({ task }) => {
   const dispatch = useDispatch();

@@ -1,7 +1,9 @@
 import { combineReducers } from "redux";
 import {configureStore} from "@reduxjs/toolkit";
-import { taskReducer } from "./task/reducer";
-import {filterReducer} from "./filter/reducer";
+// import { taskReducer } from "./task/reducer";
+import taskReducer from "./taksSlice";
+// import {filterReducer} from "./filter/reducer";
+import filterReducer from "./filterSlice";
 
 const rootReducer = combineReducers({
   tasks: taskReducer,

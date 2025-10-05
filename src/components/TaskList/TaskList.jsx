@@ -1,6 +1,6 @@
 import TaskItem from "../TaskItem/TaskItem";
 import {useSelector, useDispatch} from "react-redux";
-import {filterTasks} from "../../redux/filter/action";
+import {filterTasks} from "../../redux/filterSlice";
 
 const TaskList = () => {
   const dispatch = useDispatch();

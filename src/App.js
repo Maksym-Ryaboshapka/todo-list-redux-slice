@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
-import { addTask } from "./redux/task/action";
+// import { addTask } from "./redux/task/action";
+import {addTask} from "./redux/taksSlice";
 import { v4 as uuid } from "uuid";
 import TaskList from "./components/TaskList/TaskList";
 
